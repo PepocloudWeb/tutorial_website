@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import downloadImage from "hero/download.jpg";
-import shareImage from "hero/sharing-video.jpg";
 
 const About = () => {
   return (
