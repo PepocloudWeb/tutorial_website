@@ -69,7 +69,7 @@ const About = () => {
                 <div className="text-center">
                   <div className="relative z-10 inline-block mx-auto ml-10 ">
                     <Image
-                      src={downloadImage}
+                      src="/hero/download.jpg"
                       alt="image"
                       className="mx-auto lg:ml-auto rounded-lg border-gray-500 border-2  hidden md:block"
                     />
@@ -146,7 +146,7 @@ const About = () => {
                 <div className="text-center">
                   <div className="relative z-10 inline-block mr-10 ">
                     <Image
-                      src={shareImage}
+                      src="/hero/sharing-video.jpg"
                       alt="image"
                       className="mx-auto lg:ml-auto rounded-lg border-gray-500 border-2 hidden md:block"
                     />
