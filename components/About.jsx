@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import heroImage from "../public/hero/hero-image.png";
-import downloadImage from "../public/hero/download.jpg";
-import shareImage from "../public/hero/sharing-video.jpg";
-import recordImage from "../public/hero/home.jpg";
+import downloadImage from "/hero/download.jpg";
+import shareImage from "/hero/sharing-video.jpg";
+import recordImage from "/hero/home.jpg";
 
 const About = () => {
   return (
