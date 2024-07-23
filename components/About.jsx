@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import downloadImage from "hero/download.jpg";
 import shareImage from "hero/sharing-video.jpg";
-import recordImage from "hero/home.jpg";
 
 const About = () => {
   return (
@@ -46,7 +45,7 @@ const About = () => {
                 <div className="text-center">
                   <div className="relative z-10 inline-block mr-10 ">
                     <Image
-                      src={recordImage}
+                      src="/hero/home.jpg"
                       alt="image"
                       className="mx-auto lg:ml-auto rounded-lg border-gray-500 border-2 hidden md:block"
                     />
