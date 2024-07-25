@@ -20,16 +20,7 @@ export default function ContactUs() {
         <HeroInnerPages title="Contact" />
         <ContactCom />
 
-        <div
-          id="custom-form-widget-1"
-          class="custom-form-widget"
-          data-url="https://app.pepoform.ai/aiform/80"
-        ></div>
-        <script
-          type="text/javascript"
-          src="https://app.pepoform.ai/widget.js"
-          async
-        ></script>
+        <div>Go to Pepoform.ai and get the form code</div>
 
         <Features />
         <About />
