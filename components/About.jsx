@@ -44,6 +44,8 @@ const About = () => {
                   <div className="relative z-10 inline-block mr-10 ">
                     <Image
                       src="/hero/home.jpg"
+                      width={100}
+                      height={100}
                       alt="image"
                       className="mx-auto lg:ml-auto rounded-lg border-gray-500 border-2 hidden md:block"
                     />
@@ -68,6 +70,8 @@ const About = () => {
                   <div className="relative z-10 inline-block mx-auto ml-10 ">
                     <Image
                       src="/hero/download.jpg"
+                      width={100}
+                      height={100}
                       alt="image"
                       className="mx-auto lg:ml-auto rounded-lg border-gray-500 border-2  hidden md:block"
                     />
@@ -145,7 +149,9 @@ const About = () => {
                   <div className="relative z-10 inline-block mr-10 ">
                     <Image
                       src="/hero/sharing-video.jpg"
-                      alt="image"
+                      width={100}
+                      height={100}
+                      alt="sharing-video-image"
                       className="mx-auto lg:ml-auto rounded-lg border-gray-500 border-2 hidden md:block"
                     />
                   </div>
